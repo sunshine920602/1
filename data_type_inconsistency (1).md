@@ -11,7 +11,7 @@
 
 ## 🗃️ 核心資料表
 
-### 用戶相關 (5張表)
+### 用戶相關 
 | 表名 | 主要欄位 | 說明 |
 |------|---------|------|
 | **users** | user_id, username, email | 用戶基本資料 |
@@ -20,14 +20,14 @@
 | **points** | point_id, user_id, points_earned | 積分記錄 |
 | **login_logs** | log_id, user_id, login_time | 登入記錄 |
 
-### 商品相關 (3張表)
+### 商品相關 
 | 表名 | 主要欄位 | 說明 |
 |------|---------|------|
 | **products** | product_id, product_name, price, seller_id | 商品資料 |
 | **categories** | category_id, category_name | 商品分類 |
 | **reviews** | review_id, product_id, user_id, rating | 商品評論 |
 
-### 訂單相關 (5張表)
+### 訂單相關 
 | 表名 | 主要欄位 | 說明 |
 |------|---------|------|
 | **orders** | order_id, customer_id, total_amount | 訂單主檔 |
@@ -36,7 +36,7 @@
 | **returns_refunds** | return_id, order_id, refund_amount | 退貨退款 |
 | **coupons** | coupon_id, coupon_code, discount_amount | 優惠券 |
 
-### 物流相關 (8張表)
+### 物流相關 
 | 表名 | 主要欄位 | 說明 |
 |------|---------|------|
 | **warehouses** | warehouse_id, warehouse_name, capacity | 倉庫資料 |
